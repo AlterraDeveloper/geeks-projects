@@ -29,7 +29,7 @@ h1 {
 
 .project {
   width: 30%;
-  height: 500px;
+  height: 550px;
   padding: 20px;
   border: 2px solid #aaa;
   border-radius: 20px;
@@ -47,8 +47,8 @@ h1 {
 }
 
 .poster img {
-  width: 100%;
-  height: 100%;
+  width: 470px;
+  height: 300px;
 }
 
 .title {
@@ -66,12 +66,12 @@ h1 {
 
 .project button {
   align-self: center;
-  position: absolute;
   bottom: 15px;
   width: 50%;
   height: 60px;
   font-size: 2rem;
   padding: 0 20px;
+  margin-top: 20px;
   text-align: center;
   outline: none;
   border: none;

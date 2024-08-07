@@ -9,3 +9,9 @@
 #### Логика в JS написана с использованием объекта Proxy
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/slider-proxy)
+
+### 3. Приложение "Календарь"
+
+#### Календарь поддерживает 3 языка (русский, кыргызский, английский). Также имеется поддержка светлой и темной темы.
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/calendar)
