@@ -15,3 +15,7 @@
 #### Календарь поддерживает 3 языка (русский, кыргызский, английский). Также имеется поддержка светлой и темной темы.
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/calendar)
+
+### 4. Приложение "Пагинация"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/paginator)
