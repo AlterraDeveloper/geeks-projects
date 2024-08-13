@@ -19,3 +19,7 @@
 ### 4. Приложение "Пагинация"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/paginator)
+
+### 5. Приложение "Сравнение чисел"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/compare-numbers)
