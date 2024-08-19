@@ -23,3 +23,7 @@
 ### 5. Приложение "Сравнение чисел"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/compare-numbers)
+
+### 6. Приложение "Счетчик"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/counter)
