@@ -27,3 +27,7 @@
 ### 6. Приложение "Счетчик"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/counter)
+
+### 7. Приложение "Светофор"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/traffic-light)
