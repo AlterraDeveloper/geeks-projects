@@ -31,3 +31,7 @@
 ### 7. Приложение "Светофор"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/traffic-light)
+
+### 8. Приложение "Крестики-нолики"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/tic-tac-toe)
