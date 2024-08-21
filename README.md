@@ -35,3 +35,7 @@
 ### 8. Приложение "Крестики-нолики"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/tic-tac-toe)
+
+### 9. Приложение "Цветное поле"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/hover-board)
