@@ -48,11 +48,10 @@ h3 {
   width: 1px;
   height: 1px;
   background-color: white;
-  border: 30px solid white;
-  border-radius: 30px;
-  box-shadow: 0px 0px 20px 30px white;
-  -webkit-box-shadow: 0px 0px 20px 30px white;
-  -moz-box-shadow: 0px 0px 20px 30px white;
+  border-radius: 50px;
+  box-shadow: 0px 0px 20px 50px white;
+  -webkit-box-shadow: 0px 0px 20px 50px white;
+  -moz-box-shadow: 0px 0px 20px 50px white;
 }
 
 .text {
