@@ -13,13 +13,15 @@ $container.addEventListener("mouseleave", () => {
   $flashlight.style.display = "none";
 });
 
-window.addEventListener("wheel", (event) => {
+$container.addEventListener("wheel", (event) => {
+  event.preventDefault();
+
   if (event.deltaY < 0) {
-    flashlightRadius += 10;
-    flashlightRadius = Math.min(100, flashlightRadius);
+    flashlightRadius = Math.min(60, flashlightRadius + 10);
   } else {
-    flashlightRadius -= 10;
-    flashlightRadius = Math.max(50, flashlightRadius);
+    flashlightRadius = Math.max(30, flashlightRadius - 10);
   }
-  $flashlight.style.boxShadow = `0px 0px 20px ${flashlightRadius}px rgba(255, 255, 255)`;
+  $flashlight.style.boxShadow = `0px 0px 20px ${flashlightRadius}px white`;
+  $flashlight.style.border = `${flashlightRadius}px solid white`;
+  $flashlight.style.borderRadius = `${flashlightRadius}px`;
 });
