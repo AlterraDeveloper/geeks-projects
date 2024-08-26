@@ -39,3 +39,7 @@
 ### 9. Приложение "Цветное поле"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/hover-board)
+
+### 10. Приложение "Простой календарь"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/simple-calendar)
