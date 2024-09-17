@@ -43,3 +43,7 @@
 ### 10. Приложение "Простой календарь"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/simple-calendar)
+
+### 11. Приложение "Методы массивов"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/array-methods)
