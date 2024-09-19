@@ -47,3 +47,7 @@
 ### 11. Приложение "Методы массивов"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/array-methods)
+
+### 12. Приложение "Генератор одноразового пароля"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/otp-generator)
