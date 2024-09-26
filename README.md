@@ -51,3 +51,7 @@
 ### 12. Приложение "Генератор одноразового пароля"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/otp-generator)
+
+### 13. Приложение "Форма авторизации"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/auth-form)
