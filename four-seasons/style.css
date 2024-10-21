@@ -1,0 +1,48 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.seasons,
+.monthes {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.seasons button,
+.monthes button {
+    border: none;
+    padding: 50px;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.seasons button:nth-child(1) {
+    background-color: #4389c7;
+}
+
+.seasons button:nth-child(2) {
+    background-color: #0daa1a;
+}
+
+.seasons button:nth-child(3) {
+    background-color: #e2d407;
+}
+
+.seasons button:nth-child(4) {
+    background-color: #e4990f;
+}
