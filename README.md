@@ -63,3 +63,7 @@
 ### 15. Приложение "Хомяк-кликер"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/humster-light)
+
+### 16. Приложение "Определитель сотового оператора"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/kg-operator-detector)
