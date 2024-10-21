@@ -55,3 +55,11 @@
 ### 13. Приложение "Форма авторизации"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/auth-form)
+
+### 14. Приложение "4 сезона"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/four-seasons)
+
+### 15. Приложение "Хомяк-кликер"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/humster-light)
