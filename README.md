@@ -67,3 +67,7 @@
 ### 16. Приложение "Определитель сотового оператора"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/kg-operator-detector)
+
+### 17. Приложение "Генератор QR кода"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/qr-code-generator)
