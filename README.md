@@ -71,3 +71,7 @@
 ### 17. Приложение "Генератор QR кода"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/qr-code-generator)
+
+### 18. Приложение "2 цвета"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/two-colors)
