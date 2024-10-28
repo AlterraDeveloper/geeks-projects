@@ -75,3 +75,7 @@
 ### 18. Приложение "2 цвета"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/two-colors)
+
+### 19. Приложение "счетчик символов"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/char-counter)
