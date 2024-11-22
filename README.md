@@ -79,3 +79,7 @@
 ### 19. Приложение "счетчик символов"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/char-counter)
+
+### 20. Приложение "Расчет индекса массы тела"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/bmi-calculator)
