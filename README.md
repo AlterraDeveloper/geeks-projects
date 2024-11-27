@@ -83,3 +83,7 @@
 ### 20. Приложение "Расчет индекса массы тела"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/bmi-calculator)
+
+### 21. Приложение "Конвертер валют"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/currency-converter)
