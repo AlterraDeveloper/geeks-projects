@@ -1,0 +1,46 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #444;
+    width: 40%;
+    padding: 20px 0;
+    border: 2px solid gold;
+    border-radius: 20px;
+    font-size: 3.5rem;
+}
+
+.container h1 {
+    color: gold;
+}
+
+.stars div {
+    filter: drop-shadow(1px 1px 1px gold);
+    cursor:pointer;
+}
+
+.stars div + div {
+    margin-left: 10px;
+}
+
+.checked {
+    color: gold;
+    filter: none !important;
+}

@@ -1,5 +1,7 @@
 # Проекты для школы GEEKS
 
+## Обзор всех проектов [здесь](https://alterradeveloper.github.io/geeks-projects)
+
 ### 1. Приложение "Эффект фонарика"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/flashlight)
@@ -87,3 +89,7 @@
 ### 21. Приложение "Конвертер валют"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/currency-converter)
+
+### 22. Приложение "5-звездочный рейтинг"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/star-rating)
