@@ -4,18 +4,31 @@ document.getElementById("kgsInput").addEventListener("input", function (e) {
   if (kgs === "") {
     document.getElementById("output").style.visibility = "hidden";
     return;
+  } else {
+    document.getElementById("output").style.visibility = "visible";
   }
 
-  document.getElementById("output").style.visibility = "visible";
-  document.getElementById("usdOutput").innerHTML = roundWithPrecision(
+  const usdFilter = document.querySelector("#usdFilter");
+  const eurFilter = document.querySelector("#eurFilter");
+  const cnyFilter = document.querySelector("#cnyFilter");
+
+  const usdBlock = document.querySelector("#usdBlock");
+  const eurBlock = document.querySelector("#eurBlock");
+  const cnyBlock = document.querySelector("#cnyBlock");
+
+  usdBlock.style.display = usdFilter.checked ? "block" : "none";
+  eurBlock.style.display = eurFilter.checked ? "block" : "none";
+  cnyBlock.style.display = cnyFilter.checked ? "block" : "none";
+
+  document.getElementById("usdOutput").textContent = roundWithPrecision(
     kgs / 87,
     2
   );
-  document.getElementById("eurOutput").innerHTML = roundWithPrecision(
+  document.getElementById("eurOutput").textContent = roundWithPrecision(
     kgs / 92,
     2
   );
-  document.getElementById("cnyOutput").innerHTML = roundWithPrecision(
+  document.getElementById("cnyOutput").textContent = roundWithPrecision(
     kgs / 10,
     2
   );
