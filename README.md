@@ -93,3 +93,7 @@
 ### 22. Приложение "5-звездочный рейтинг"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/star-rating)
+
+### 23. Приложение "Вкладки"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/tabs)
