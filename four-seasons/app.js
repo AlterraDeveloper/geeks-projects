@@ -39,6 +39,10 @@ for (const $season of $seasons) {
       let $month = document.createElement("button");
       $month.innerText = month;
       $month.style.backgroundColor = getColorBySeason(season);
+      if (month === "November") {
+        $month.classList.add("happy-birthday");
+        $month.dataset.dob = "24🎁";
+      }
       $monthes.append($month);
       document.body.style.backgroundImage = `url('${getSeasonImagePath(
         season

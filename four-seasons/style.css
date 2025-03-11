@@ -10,39 +10,59 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  gap: 50px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
 }
 
 .seasons,
 .monthes {
-    display: flex;
-    gap: 20px;
-    margin: 20px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .seasons button,
 .monthes button {
-    border: none;
-    padding: 50px;
-    border-radius: 10px;
-    font-size: 2rem;
-    color: white;
-    cursor: pointer;
+  border: none;
+  padding: 50px;
+  border-radius: 10px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  position: relative;
 }
 
 .seasons button:nth-child(1) {
-    background-color: #4389c7;
+  background-color: #4389c7;
 }
 
 .seasons button:nth-child(2) {
-    background-color: #0daa1a;
+  background-color: #0daa1a;
 }
 
 .seasons button:nth-child(3) {
-    background-color: #e2d407;
+  background-color: #e2d407;
 }
 
 .seasons button:nth-child(4) {
-    background-color: #e4990f;
+  background-color: #e4990f;
+}
+
+.monthes button.happy-birthday:before {
+  content: attr(data-dob);
+  top: 0;
+  position: absolute;
+  right: 50%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50px;
+  transform: translate(50%, -50%);
+  color: black;
 }
