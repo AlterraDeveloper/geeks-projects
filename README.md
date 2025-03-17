@@ -97,3 +97,7 @@
 ### 23. Приложение "Вкладки"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/tabs)
+
+### 24. Приложение "Заметки"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/notes)

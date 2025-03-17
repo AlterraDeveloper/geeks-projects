@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <h1 class="notes__title">Notes</h1>
+      </div>
+      <div class="notes">
+        <!-- <div class="note">
+          <div class="note__body">My first note</div>
+          <div class="note__footer" style="justify-content: flex-end">
+            <button class="note__delete">Remove</button>
+          </div>
+        </div> -->
+        <div class="note" style="background: rgba(255, 255, 255, 0)">
+          <textarea
+            cols="10"
+            rows="5"
+            placeholder="Type...."
+            maxlength="100"
+          ></textarea>
+          <div class="note__footer">
+            <span class="label">100 left</span>
+            <button class="note__save" onClick="{saveHandler}">Save</button>
+          </div>
+          <div class="progress-bar">
+            <div class="inner-bar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"
+      integrity="sha512-X0CJvcClD8EXFn5Oq8BD5lIsznKDfxb0Sf9Wr8MCCTyAEWaAAxr0Jvm3qyofsmN7eSHMZ0PPQGjVKroLAfexrA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
