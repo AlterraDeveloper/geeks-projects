@@ -70,7 +70,7 @@ body {
 }
 
 .form-control input {
-  border: 4px solid black;
+  border: 1px solid black;
   border-radius: 4px;
   display: block;
   font-family: inherit;
@@ -237,7 +237,7 @@ input:checked + .slider:before {
   font-size: 1.15rem;
   padding: 0.675em 6em 0.675em 1em;
   background-color: #fff;
-  border: 1px solid #caced1;
+  border: 1px solid black;
   border-radius: 0.25rem;
   color: #000;
   cursor: pointer;
@@ -264,4 +264,9 @@ input:checked + .slider:before {
   border-right: var(--size) solid transparent;
   border-top: var(--size) solid black;
   top: 55%;
+}
+
+.form-control:has(.custom-select) i {
+  top: 25%;
+  right: 40px;
 }
