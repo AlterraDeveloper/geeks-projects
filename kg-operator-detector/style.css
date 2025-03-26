@@ -22,9 +22,9 @@ body {
 
 .container .phone-wrapper {
   background-color: white;
-  padding: 35px 0px 20px;
+  padding: 35px 0px 30px;
   width: 100%;
-  height: 200px;
+  /* height: 250px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,7 +75,7 @@ body {
 }
 
 #detection-result img {
-  width: 300px;
+  width: 100%;
   height: 180px;
 }
 
