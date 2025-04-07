@@ -8,23 +8,49 @@
     <script defer src="app.js"></script>
   </head>
   <body>
+    <div class="languages">
+      <div class="language">
+        <label for="lang-us">
+          <img src="images/usa.png" alt="english" />
+        </label>
+        <input type="radio" name="lang" id="lang-us" value="eng" checked />
+      </div>
+      <div class="language">
+        <label for="lang-ru">
+          <img src="images/rus.png" alt="russian" />
+        </label>
+        <input type="radio" name="lang" id="lang-ru" value="rus" />
+      </div>
+      <div class="language">
+        <label for="lang-kg">
+          <img src="images/kgz.png" alt="kyrgyz" />
+        </label>
+        <input type="radio" name="lang" id="lang-kg" value="kgz" />
+      </div>
+    </div>
     <div class="container">
       <div class="header">
-        <h1>AUGUST</h1>
-        <h2>Mon Aug 26 2024</h2>
+        <h1 translate></h1>
+        <h2>
+          <span id="current-day"></span>
+          <span id="current-month" translate></span>
+          <span id="current-year"></span>
+          (
+          <span id="current-weekday" translate></span>
+          )
+        </h2>
       </div>
       <div class="body">
         <div class="weekdays">
-          <div class="weekday">Mon</div>
-          <div class="weekday">Tue</div>
-          <div class="weekday">Wed</div>
-          <div class="weekday">Thu</div>
-          <div class="weekday">Fri</div>
-          <div class="weekday">Sat</div>
-          <div class="weekday">Sun</div>
+          <div class="weekday" translate data-t="[weekday-short-1]"></div>
+          <div class="weekday" translate data-t="[weekday-short-2]"></div>
+          <div class="weekday" translate data-t="[weekday-short-3]"></div>
+          <div class="weekday" translate data-t="[weekday-short-4]"></div>
+          <div class="weekday" translate data-t="[weekday-short-5]"></div>
+          <div class="weekday" translate data-t="[weekday-short-6]"></div>
+          <div class="weekday" translate data-t="[weekday-short-7]"></div>
         </div>
-        <div class="days">
-        </div>
+        <div class="days"></div>
       </div>
     </div>
   </body>
