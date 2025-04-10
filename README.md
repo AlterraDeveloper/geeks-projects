@@ -101,3 +101,7 @@
 ### 24. Приложение "Заметки"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/notes)
+
+### 25. Приложение "Обратный отсчет"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/countdown)
