@@ -11,56 +11,62 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 offset-md-3">
-          <h1 class="display-4 text-center mb-3">Currency Converter</h1>
-
-          <form>
-            <div class="form-group">
-              <input
-                id="kgsInput"
-                type="number"
-                class="form-control form-control-lg"
-                placeholder="Enter soms"
-              />
-            </div>
-          </form>
-          <div class="filter container row">
-            <div class="col-md-4">
-              <label for="usdFilter">🇺🇸 USD</label>
-              <input type="checkbox" id="usdFilter" />
-            </div>
-            <div class="col-md-4">
-              <label for="eurFilter">🇪🇺 EURO</label>
-              <input type="checkbox" id="eurFilter" />
-            </div>
-            <div class="col-md-4">
-              <label for="cnyFilter">🇨🇳 CNY</label>
-              <input type="checkbox" id="cnyFilter"/>
-            </div>
+    <div class="container d-flex flex-column align-items-center">
+      <div class="row mb-3">
+        <h1 class="display-4 text-center mb-3">Currency Converter</h1>
+      </div>
+      <div class="row d-block col-6">
+        <div class="form-group">
+          <input
+            id="kgsInput"
+            type="number"
+            class="form-control form-control-lg"
+            placeholder="Enter soms"
+          />
+        </div>
+      </div>
+      <div class="filter container row my-5 justify-content-center">
+        <div class="col-3 filter-option">
+          <label for="usdFilter"
+            ><span class="flag">🇺🇸</span
+            ><span class="flag-text">USD</span></label
+          >
+          <input type="checkbox" id="usdFilter" />
+        </div>
+        <div class="col-3 filter-option">
+          <label for="eurFilter"
+            ><span class="flag">🇪🇺</span
+            ><span class="flag-text">EURO</span></label
+          >
+          <input type="checkbox" id="eurFilter" />
+        </div>
+        <div class="col-3 filter-option">
+          <label for="cnyFilter"
+            ><span class="flag">🇨🇳</span
+            ><span class="flag-text">CNY</span></label
+          >
+          <input type="checkbox" id="cnyFilter" />
+        </div>
+      </div>
+      <div id="output" class="w-50">
+        <div id="usdBlock" class="card card-success mb-2">
+          <div class="card-block">
+            <h2>$</h2>
+            <div class="center" id="usdOutput"></div>
           </div>
-          <div id="output">
-            <div id="usdBlock" class="card card-success mb-2">
-              <div class="card-block">
-                <h2>$</h2>
-                <div class="center" id="usdOutput"></div>
-              </div>
-            </div>
+        </div>
 
-            <div id="eurBlock" class="card card-primary mb-2">
-              <div class="card-block">
-                <h2>€</h2>
-                <div id="eurOutput"></div>
-              </div>
-            </div>
+        <div id="eurBlock" class="card card-primary mb-2">
+          <div class="card-block">
+            <h2>€</h2>
+            <div id="eurOutput"></div>
+          </div>
+        </div>
 
-            <div id="cnyBlock" class="card card-danger mb-2">
-              <div class="card-block">
-                <h2>¥</h2>
-                <div id="cnyOutput"></div>
-              </div>
-            </div>
+        <div id="cnyBlock" class="card card-danger mb-2">
+          <div class="card-block">
+            <h2>¥</h2>
+            <div id="cnyOutput"></div>
           </div>
         </div>
       </div>
