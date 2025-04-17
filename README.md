@@ -105,3 +105,7 @@
 ### 25. Приложение "Обратный отсчет"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/countdown)
+
+### 26. Приложение "Модальное окно + форма"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/modal-plus-form)
