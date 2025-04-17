@@ -31,6 +31,7 @@ body {
 }
 
 .modal {
+  position: relative;
   background-color: white;
   width: 600px;
   max-width: 100%;
@@ -70,11 +71,11 @@ body {
 }
 
 .form-control input {
-  border: 1px solid black;
+  border: 4px solid black;
   border-radius: 4px;
   display: block;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 28px;
   padding: 10px;
   width: 100%;
 }
@@ -152,16 +153,6 @@ body {
   padding: 5px;
 }
 
-/* .form-control input[type="checkbox"]:checked::after {
-  content: "Да";
-  color: #1d8347;
-}
-
-.form-control input[type="checkbox"]::after {
-  content: "Нет";
-  color: #e74c3c;
-} */
-
 /* The switch - the box around the slider */
 .switch {
   position: relative;
@@ -234,21 +225,21 @@ input:checked + .slider:before {
 .custom-select select {
   appearance: none;
   width: 100%;
-  font-size: 1.15rem;
+  font-size: 28px;
   padding: 0.675em 6em 0.675em 1em;
   background-color: #fff;
-  border: 1px solid black;
-  border-radius: 0.25rem;
+  border: 4px solid black;
+  border-radius: 4px;
   color: #000;
   cursor: pointer;
 }
 
 .custom-select::before,
 .custom-select::after {
-  --size: 0.3rem;
+  --size: 0.4rem;
   content: "";
   position: absolute;
-  right: 1rem;
+  right: 2rem;
   pointer-events: none;
 }
 
@@ -266,7 +257,10 @@ input:checked + .slider:before {
   top: 55%;
 }
 
-.form-control:has(.custom-select) i {
-  top: 25%;
-  right: 40px;
+.fa-times-circle {
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
 }

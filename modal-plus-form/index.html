@@ -15,26 +15,30 @@
 
     <div class="modal-container" id="modal_container">
       <div class="modal">
+        <i id="modal-close" class="fas fa-times-circle"></i>
         <form id="form" class="form">
-          <div class="form-control column">
+          
+           <div class="form-control column">
             <label class="required" for="userEmail">Login</label>
             <input type="email" placeholder="" id="userEmail" />
             <i class="fas fa-check-circle"></i>
             <i class="fas fa-exclamation-circle"></i>
             <small>Error message</small>
           </div>
+
+
           <div class="form-control column">
             <label class="required" for="userPassword">Password</label>
             <input type="password" id="userPassword" value="" />
             <i class="fas fa-check-circle"></i>
             <i class="fas fa-exclamation-circle"></i>
             <small>Error message</small>
-            <i class="fas fa-eye"></i>
+            <i class="fas fa-eye" id="password-eye"></i>
           </div>
           <div class="form-control row">
-            <label for="">Remember me</label>
+            <label for="remember-me">Remember me</label>
             <label class="switch">
-              <input type="checkbox" />
+              <input type="checkbox" id="remember-me" checked/>
               <span class="slider round"></span>
             </label>
           </div>
@@ -43,7 +47,7 @@
               <select>
                 <option value="">Open this select menu</option>
                 <option value="">GitHub</option>
-                <option value="">Instagram</option>
+                <option value="" selected>Instagram</option>
                 <option value="">Facebook</option>
                 <option value="">LinkedIn</option>
                 <option value="">Twitter</option>

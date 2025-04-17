@@ -1,20 +1,55 @@
-const modalContainer = document.querySelector("#modal_container");
+const openModalBtn = document.querySelector("#open");
+const modalContainer = document.querySelector(".modal-container");
+const closeModalBtn = document.querySelector("#modal-close");
 const modal = modalContainer.querySelector(".modal");
-const form = modal.querySelector("#form");
-const modalOpen = document.querySelector("#open");
 
-modalOpen.onclick = () => {
-  modalContainer.classList.add("show");
+openModalBtn.onclick = () => {
+  openModal();
 };
+
+closeModalBtn.onclick = () => {
+  closeModal();
+};
+
 modalContainer.onclick = () => {
-  modalContainer.classList.remove("show");
+  closeModal();
 };
 
 modal.onclick = (event) => {
   event.stopPropagation();
 };
 
+function openModal() {
+  modalContainer.classList.add("show");
+}
+
+function closeModal() {
+  modalContainer.classList.remove("show");
+}
+
+// event propagation - распространение события
+
+const form = document.querySelector("#form");
+
 form.onsubmit = (event) => {
   event.preventDefault();
-  console.log("submit form");
+  console.log("form submitted");
+};
+
+// form.addEventListener("submit", () => {});
+
+const passwordEye = document.getElementById("password-eye");
+
+passwordEye.onmouseenter = () => {
+  const passwordInput = passwordEye.parentNode.querySelector(
+    "input[type=password]"
+  );
+  passwordInput.setAttribute("type", "text");
+};
+
+passwordEye.onmouseleave = () => {
+  const passwordInput = passwordEye.parentNode.querySelector(
+    "input[type=text]"
+  );
+  passwordInput.setAttribute("type", "password");
 };
