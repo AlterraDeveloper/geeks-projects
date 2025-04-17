@@ -5,7 +5,7 @@ const $resultText = document.querySelector("#weight-condition");
 
 function calculateBMI(height, weight) {
   height /= 100; // cm to m
-  return weight / height ** 2;
+  return (weight / height ** 2).toFixed(2);
 }
 
 function renderBMI() {
