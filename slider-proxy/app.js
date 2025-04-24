@@ -1,6 +1,7 @@
 const $slides = document.querySelectorAll(".slide");
 const $rightArrow = document.querySelector(".right-arrow");
 const $leftArrow = document.querySelector(".left-arrow");
+const $navs = document.querySelectorAll(".nav-item")
 
 const sliderProxy = new Proxy(
   {
@@ -20,6 +21,9 @@ function updateSlider(currentSlide) {
   $slides.forEach((s) => s.classList.remove("active"));
   $slide.classList.add("active");
   setBackgroundImage(document.body, imageUrl);
+  const $activeNav = document.querySelector(".nav .nav-item.active");
+  $activeNav.classList.remove("active");
+  $navs[currentSlide].classList.add('active');
 }
 
 function setBackgroundImage(element, url) {

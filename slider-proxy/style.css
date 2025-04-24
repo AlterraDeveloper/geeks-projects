@@ -4,6 +4,7 @@
 
 body {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
@@ -63,14 +64,10 @@ body::before {
 
 .arrow {
   background-color: rgba(128, 128, 128, 0.15);
-  /* border-top: 2px solid orange;
-  border-left: 2px solid orange;
-  border-bottom: 2px solid orange; */
   color: #fff;
   cursor: pointer;
   font-size: 80px;
   text-align: center;
-  /* padding: 0 20px 10px; */
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
@@ -93,4 +90,22 @@ body::before {
 
 .right-arrow {
   right: calc(15vw - 65px);
+}
+
+.nav {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: white;
+  opacity: 0.3;
+}
+
+.nav-item.active {
+  opacity: 1;
 }
