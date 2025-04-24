@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
-  />
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="app.js"></script>
-</head>
-<body>
-<div class="container">
-  <div class="header">
-    <h2>Login form</h2>
-  </div>
-  <form id="form" class="form">
-    <div class="form-control">
-      <label class="required" for="userEmail">Login</label>
-      <input type="email" placeholder="" id="userEmail" />
-      <i class="fas fa-check-circle"></i>
-      <i class="fas fa-exclamation-circle"></i>
-      <small>Error message</small>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Login form</h2>
+      </div>
+      <form id="form" class="form">
+        <div class="form-control">
+          <label class="required" for="userEmail">Login</label>
+          <input type="text" placeholder="" id="userEmail" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label class="required" for="userPassword">Password</label>
+          <input type="password" id="userPassword" value="" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <input type="submit" value="Login" />
+      </form>
     </div>
-    <div class="form-control">
-      <label class="required" for="userPassword">Password</label>
-      <input type="password" id="userPassword" value="" />
-      <i class="fas fa-check-circle"></i>
-      <i class="fas fa-exclamation-circle"></i>
-      <small>Error message</small>
-    </div>
-    <input type="submit" value="Login" />
-  </form>
-</div>
-</body>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.16.1/sweetalert2.all.js"
+      integrity="sha512-gG9iGmJWEX+MifPgfm3hFV15M3DdHjyPKYBBd62u/J1E1kGGrdczt3HmQJ66vgM0ytcF9r7cTlq7SbtJLEUWZw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="app.js"></script>
+  </body>
 </html>
