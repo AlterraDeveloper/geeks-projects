@@ -109,3 +109,7 @@
 ### 26. Приложение "Модальное окно + форма"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/modal-plus-form)
+
+### 27. Приложение "Селектор цветов"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/colorify)
