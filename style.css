@@ -25,6 +25,7 @@ h1 {
   align-items: center;
   justify-content: start;
   gap: 50px;
+  margin-bottom: 60px;
 }
 
 .project {

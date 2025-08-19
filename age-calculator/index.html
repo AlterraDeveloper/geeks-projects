@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Sweet Alert 2 -->
+    <link
+      href=" https://cdn.jsdelivr.net/npm/sweetalert2@11.22.4/dist/sweetalert2.min.css "
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-wrapper">
+        <input type="date" id="date-input" />
+        <button id="calc-age-btn">Рассчитать</button>
+      </div>
+      <div class="output-wrapper">
+        <div>
+          <span id="years">-</span>
+          <p>Лет</p>
+        </div>
+        <div>
+          <span id="months">-</span>
+          <p>Месяцев</p>
+        </div>
+        <div>
+          <span id="days">-</span>
+          <p>Дней</p>
+        </div>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src=" https://cdn.jsdelivr.net/npm/sweetalert2@11.22.4/dist/sweetalert2.all.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -113,3 +113,7 @@
 ### 27. Приложение "Селектор цветов"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/colorify)
+
+### 28. Приложение "Калькулятор возраста"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/age-calculator)
