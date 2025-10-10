@@ -1,0 +1,91 @@
+:root{
+    --border-width: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  overflow: hidden;
+}
+
+#btn {
+  width: 400px;
+  height: 100px;
+  border: none;
+  font-size: 3rem;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  justify-self: center;
+  cursor: pointer
+}
+
+.loto-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 100px;
+}
+
+.loto-ball {
+  background-color: white;
+  font-size: 5rem;
+  border-radius: 100%;
+  padding: 50px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(
+    circle at 30% 30%,
+    #fff,
+    #888
+  );
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+
+  animation-duration: 0.5s;
+  animation-name: animate-pop;
+  animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+}
+
+.loto-ball.even {
+    color: blue
+  /* border: var(--border-width) solid blue; */
+}
+.loto-ball.odd {
+    color: red;
+  /* border: var(--border-width) solid red; */
+}
+
+@keyframes animate-pop {
+    0% {
+      opacity: 0;
+      transform: scale(0.5, 0.5);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1, 1);
+    }
+  }
