@@ -117,3 +117,7 @@
 ### 28. Приложение "Калькулятор возраста"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/age-calculator)
+
+### 29. Приложение "Стаканы воды"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/water-cups)
