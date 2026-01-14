@@ -121,3 +121,7 @@
 ### 29. Приложение "Стаканы воды"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/water-cups)
+
+### 30. Приложение "FAQ Аккордеон"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/faq)
