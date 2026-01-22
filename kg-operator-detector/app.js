@@ -68,3 +68,19 @@ function detectOperator(code) {
 
   return null;
 }
+
+const submitBtn = document.querySelector("#detect-btn");
+const phoneInput = document.querySelector('input[name="PhoneNumber"]');
+
+phoneInput.addEventListener("input", () => {
+  const phoneNumber = phoneInput.value;
+  const isLocal = phoneNumber.length === 10 && phoneNumber.startsWith("0");
+  const isInternational = phoneNumber.length === 13 && phoneNumber.startsWith("+996");
+  if (isLocal || isInternational) {
+    submitBtn.classList.remove("hidden");
+  } else {
+    submitBtn.classList.add("hidden");
+    operatorImg.setAttribute("src", "images/error.png");
+  }
+});
+
