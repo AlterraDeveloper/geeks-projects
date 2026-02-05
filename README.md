@@ -125,3 +125,7 @@
 ### 30. Приложение "FAQ Аккордеон"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/faq)
+
+### 31. Приложение "Слайдшоу"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/image-slideshow)

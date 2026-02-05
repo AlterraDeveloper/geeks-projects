@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expandable Carousel Flex Cards</title>
+    <!-- font awesome icons cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main Container -->
+    <div class="options">
+      <!-- --optionBackground : CSS Local Variable -->
+      <div
+        class="option active"
+        style="
+          --optionBackground: url(https://cdn.pixabay.com/photo/2021/09/13/10/27/nature-6620939_960_720.jpg);
+        "
+      >
+        <div class="shadow"></div>
+        <div class="label">
+          <div class="icon">
+            <i class="fas fa-walking"></i>
+          </div>
+          <div class="info">
+            <div class="main">Луга</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copy the option and paste few more times -->
+
+      <div
+        class="option"
+        style="
+          --optionBackground: url(https://cdn.pixabay.com/photo/2016/11/08/05/16/boy-1807518_960_720.jpg);
+        "
+      >
+        <div class="shadow"></div>
+        <div class="label">
+          <div class="icon">
+            <i class="fas fa-tint"></i>
+          </div>
+          <div class="info">
+            <div class="main">Река</div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="option"
+        style="
+          --optionBackground: url(https://cdn.pixabay.com/photo/2016/04/20/19/47/wolves-1341881_960_720.jpg);
+        "
+      >
+        <div class="shadow"></div>
+        <div class="label">
+          <div class="icon">
+            <i class="fas fa-snowflake"></i>
+          </div>
+          <div class="info">
+            <div class="main">Снег</div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="option"
+        style="
+          --optionBackground: url(https://cdn.pixabay.com/photo/2016/10/14/19/21/canyon-1740973_960_720.jpg);
+        "
+      >
+        <div class="shadow"></div>
+        <div class="label">
+          <div class="icon">
+            <i class="fas fa-tree"></i>
+          </div>
+          <div class="info">
+            <div class="main">Горы</div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="option"
+        style="
+          --optionBackground: url(https://cdn.pixabay.com/photo/2017/05/27/22/33/morocco-2349647_960_720.jpg);
+        "
+      >
+        <div class="shadow"></div>
+        <div class="label">
+          <div class="icon">
+            <i class="fas fa-sun"></i>
+          </div>
+          <div class="info">
+            <div class="main">Пустыня</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JQUERY CDN Link -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
