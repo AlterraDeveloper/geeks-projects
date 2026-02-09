@@ -129,3 +129,7 @@
 ### 31. Приложение "Слайдшоу"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/image-slideshow)
+
+### 32. Приложение "Методы массивов 2"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/array-methods-2)
