@@ -38,7 +38,8 @@ function getFirstDayInMonth(date) {
 
 function getEmptiesCount(date) {
   const firstDay = getFirstDayInMonth(date);
-  return firstDay.getDay() - 1;
+  const weekdayOrder = firstDay.getDay() || 7; // 0 - это воскресенье, а должно быть 7 
+  return  weekdayOrder - 1;
 }
 
 function translatePage(lang = "eng") {
