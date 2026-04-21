@@ -1,385 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projects Geeks</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="https://online.geeks.kg/assets/favicon-b98a26cc.svg"
-    />
-  </head>
-  <body>
-    <h1>Geeks projects</h1>
-    <div class="container">
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/flashlight', '_blank');"
-      >
-        <div class="poster">
-          <img src="./flashlight/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Flashlight effect</div>
-        <div class="description"></div>
-      </div>
 
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/slider-proxy', '_blank');"
-      >
-        <div class="poster">
-          <img src="./slider-proxy/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Image slider</div>
-        <div class="description">
-          Логика в JS написана с использованием объекта Proxy
-        </div>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects Geeks</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="https://online.geeks.kg/assets/favicon-b98a26cc.svg" />
+</head>
 
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/calendar', '_blank');"
-      >
-        <div class="poster">
-          <img src="./calendar/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Calendar</div>
-        <div class="description">
-          Календарь поддерживает 3 языка (русский, кыргызский, английский).
-          Также имеется поддержка светлой и темной темы.
-        </div>
+<body>
+  <h1>Geeks projects</h1>
+  <div class="container">
+    <div class="project" data-project-name="flashlight">
+      <div class="poster">
+        <img src="./flashlight/demo.png" alt="Project poster" />
       </div>
+      <div class="title">Flashlight effect</div>
+      <div class="description"></div>
+    </div>
 
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/paginator', '_blank');"
-      >
-        <div class="poster">
-          <img src="./paginator/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Pagination</div>
-        <div class="description"></div>
+    <div class="project" data-project-name="slider-proxy">
+      <div class="poster">
+        <img src="./slider-proxy/demo.png" alt="Project poster" />
       </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/compare-numbers', '_blank');"
-      >
-        <div class="poster">
-          <img src="./compare-numbers/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Compare numbers</div>
-        <div class="description"></div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/counter', '_blank');"
-      >
-        <div class="poster">
-          <img src="./counter/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Counter</div>
-        <div class="description"></div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/traffic-light', '_blank');"
-      >
-        <div class="poster">
-          <img src="./traffic-light/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Traffic light</div>
-        <div class="description"></div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/tic-tac-toe', '_blank');"
-      >
-        <div class="poster">
-          <img src="./tic-tac-toe/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Tic tac toe</div>
-        <div class="description"></div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/hover-board', '_blank');"
-      >
-        <div class="poster">
-          <img src="./hover-board/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Hover board</div>
-        <div class="description"></div>
-      </div>
-
-      <div
-        class="project"
-        data-project-name="simple-calendar"
-      >
-        <div class="poster">
-          <img src="./simple-calendar/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Simple calendar</div>
-        <div class="description"></div>
-      </div>
-
-      <div
-        class="project"
-        data-project-name="array-methods"
-      >
-        <div class="poster">
-          <img src="./array-methods/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Array methods</div>
-        <div class="description">
-          Explaining map, filter, slice, reverse, sort
-        </div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/otp-generator', '_blank');"
-      >
-        <div class="poster">
-          <img src="./otp-generator/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">OTP generator</div>
-        <div class="description">Using bootstrap in this project</div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/auth-form', '_blank');"
-      >
-        <div class="poster">
-          <img src="./auth-form/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Auth form</div>
-        <div class="description"></div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/four-seasons', '_blank');"
-      >
-        <div class="poster">
-          <img src="./four-seasons/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">4 seasons</div>
-        <div class="description"></div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/humster-light', '_blank');"
-      >
-        <div class="poster">
-          <img src="./humster-light/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">My humster</div>
-        <div class="description">Simple clicker</div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/kg-operator-detector', '_blank');"
-      >
-        <div class="poster">
-          <img src="./kg-operator-detector/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">KG mobile operator detector</div>
-        <div class="description">Detect MEGA, O!, Beeline operators</div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/qr-code-generator', '_blank');"
-      >
-        <div class="poster">
-          <img src="./qr-code-generator/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">QR code generator</div>
-        <div class="description">
-          Using library
-          <a href="https://github.com/davidshimjs/qrcodejs" target="_blank"
-            >qrcodejs</a
-          >
-        </div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/two-colors', '_blank');"
-      >
-        <div class="poster">
-          <img src="./two-colors/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">2 colors switcher</div>
-        <div class="description">Idea: add switch button to swap colors</div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/char-counter', '_blank');"
-      >
-        <div class="poster">
-          <img src="./char-counter/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Char counter</div>
-        <div class="description"></div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/bmi-calculator', '_blank');"
-      >
-        <div class="poster">
-          <img src="./bmi-calculator/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Body Mass Index (BMI)</div>
-        <div class="description"></div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/currency-converter', '_blank');"
-      >
-        <div class="poster">
-          <img src="./currency-converter/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Currency converter</div>
-        <div class="description"></div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/star-rating', '_blank');"
-      >
-        <div class="poster">
-          <img src="./star-rating/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Star rating</div>
-        <div class="description">Used confetti.js library</div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/tabs', '_blank');"
-      >
-        <div class="poster">
-          <img src="./tabs/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Tabs</div>
-        <div class="description">Used input:radio for tabs switching</div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/notes', '_blank');"
-      >
-        <div class="poster">
-          <img src="./notes/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Notes</div>
-        <div class="description">LocalStorage practice</div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/countdown', '_blank');"
-      >
-        <div class="poster">
-          <img src="./countdown/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Countdown</div>
-        <div class="description">Used moment.js library</div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/modal-plus-form', '_blank');"
-      >
-        <div class="poster">
-          <img src="./modal-plus-form/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Modal + Form</div>
-        <div class="description"></div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/colorify', '_blank');"
-      >
-        <div class="poster">
-          <img src="./colorify/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Colorify</div>
-        <div class="description"></div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/age-calculator', '_blank');"
-      >
-        <div class="poster">
-          <img src="./age-calculator/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Age calculator</div>
-        <div class="description">Using library moment.js</div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/water-cups', '_blank');"
-      >
-        <div class="poster">
-          <img src="./water-cups/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Water cups</div>
-        <div class="description"></div>
-      </div>
-
-      <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/faq', '_blank');"
-      >
-        <div class="poster">
-          <img src="./faq/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">FAQ Accordeon</div>
-        <div class="description">Accordeon blocks implementation</div>
-      </div>
-
-      <div
-        class="project"
-        data-url=""
-        data-project-name="image-slideshow"
-      >
-        <div class="poster">
-          <img src="./image-slideshow/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Images slideshow</div>
-        <div class="description"></div>
-      </div>
-
-       <div
-        class="project"
-        onclick="window.open('https://alterradeveloper.github.io/geeks-projects/array-methods-2', '_blank');"
-      >
-        <div class="poster">
-          <img src="./array-methods-2/demo.png" alt="Project poster" />
-        </div>
-        <div class="title">Array methods 2</div>
-        <div class="description"></div>
+      <div class="title">Image slider</div>
+      <div class="description">
+        Логика в JS написана с использованием объекта Proxy
       </div>
     </div>
 
-    <script src="app.js"></script>
-  </body>
+    <div class="project" data-project-name="calendar">
+      <div class="poster">
+        <img src="./calendar/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Calendar</div>
+      <div class="description">
+        Календарь поддерживает 3 языка (русский, кыргызский, английский).
+        Также имеется поддержка светлой и темной темы.
+      </div>
+    </div>
+
+    <div class="project" data-project-name="paginator">
+      <div class="poster">
+        <img src="./paginator/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Pagination</div>
+      <div class="description"></div>
+    </div>
+
+    <div class="project" data-project-name="compare-numbers">
+      <div class="poster">
+        <img src="./compare-numbers/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Compare numbers</div>
+      <div class="description"></div>
+    </div>
+
+    <div class="project" data-project-name="counter">
+      <div class="poster">
+        <img src="./counter/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Counter</div>
+      <div class="description"></div>
+    </div>
+
+    <div class="project" data-project-name="traffic-light">
+      <div class="poster">
+        <img src="./traffic-light/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Traffic light</div>
+      <div class="description"></div>
+    </div>
+
+    <div class="project" data-project-name="tic-tac-toe">
+      <div class="poster">
+        <img src="./tic-tac-toe/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Tic tac toe</div>
+      <div class="description"></div>
+    </div>
+
+    <div class="project" data-project-name="hover-board">
+      <div class="poster">
+        <img src="./hover-board/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Hover board</div>
+      <div class="description"></div>
+    </div>
+
+    <div class="project" data-project-name="simple-calendar">
+      <div class="poster">
+        <img src="./simple-calendar/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Simple calendar</div>
+      <div class="description"></div>
+    </div>
+
+    <div class="project" data-project-name="array-methods">
+      <div class="poster">
+        <img src="./array-methods/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Array methods</div>
+      <div class="description">
+        Explaining map, filter, slice, reverse, sort
+      </div>
+    </div>
+
+    <div class="project" data-project-name="otp-generator">
+      <div class="poster">
+        <img src="./otp-generator/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">OTP generator</div>
+      <div class="description">Using bootstrap in this project</div>
+    </div>
+
+    <div class="project" data-project-name="auth-form">
+      <div class="poster">
+        <img src="./auth-form/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Auth form</div>
+      <div class="description"></div>
+    </div>
+
+    <div class="project" data-project-name="four-seasons">
+      <div class="poster">
+        <img src="./four-seasons/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">4 seasons</div>
+      <div class="description"></div>
+    </div>
+
+    <div class="project" data-project-name="humster-light">
+      <div class="poster">
+        <img src="./humster-light/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">My humster</div>
+      <div class="description">Simple clicker</div>
+    </div>
+
+    <div class="project" data-project-name="kg-operator-detector">
+      <div class="poster">
+        <img src="./kg-operator-detector/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">KG mobile operator detector</div>
+      <div class="description">Detect MEGA, O!, Beeline operators</div>
+    </div>
+
+    <div class="project" data-project-name="qr-code-generator">
+      <div class="poster">
+        <img src="./qr-code-generator/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">QR code generator</div>
+      <div class="description">
+        Using library
+        <a href="https://github.com/davidshimjs/qrcodejs" target="_blank">qrcodejs</a>
+      </div>
+    </div>
+
+    <div class="project" data-project-name="two-colors">
+      <div class="poster">
+        <img src="./two-colors/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">2 colors switcher</div>
+      <div class="description">Idea: add switch button to swap colors</div>
+    </div>
+
+    <div class="project" data-project-name="char-counter">
+      <div class="poster">
+        <img src="./char-counter/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Char counter</div>
+      <div class="description"></div>
+    </div>
+
+    <div class="project" data-project-name="bmi-calculator">
+      <div class="poster">
+        <img src="./bmi-calculator/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Body Mass Index (BMI)</div>
+      <div class="description"></div>
+    </div>
+
+    <div class="project" data-project-name="currency-converter">
+      <div class="poster">
+        <img src="./currency-converter/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Currency converter</div>
+      <div class="description"></div>
+    </div>
+
+    <div class="project" data-project-name="star-rating">
+      <div class="poster">
+        <img src="./star-rating/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Star rating</div>
+      <div class="description">Used confetti.js library</div>
+    </div>
+
+    <div class="project" data-project-name="tabs">
+      <div class="poster">
+        <img src="./tabs/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Tabs</div>
+      <div class="description">Used input:radio for tabs switching</div>
+    </div>
+
+    <div class="project" data-project-name="notes">
+      <div class="poster">
+        <img src="./notes/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Notes</div>
+      <div class="description">LocalStorage practice</div>
+    </div>
+
+    <div class="project" data-project-name="countdown">
+      <div class="poster">
+        <img src="./countdown/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Countdown</div>
+      <div class="description">Used moment.js library</div>
+    </div>
+
+    <div class="project"  data-project-name="modal-plus-form">
+      <div class="poster">
+        <img src="./modal-plus-form/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Modal + Form</div>
+      <div class="description"></div>
+    </div>
+
+    <div class="project" data-project-name="colorify">
+      <div class="poster">
+        <img src="./colorify/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Colorify</div>
+      <div class="description"></div>
+    </div>
+
+    <div class="project" data-project-name="age-calculator">
+      <div class="poster">
+        <img src="./age-calculator/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Age calculator</div>
+      <div class="description">Using library moment.js</div>
+    </div>
+
+    <div class="project" data-project-name="water-cups">
+      <div class="poster">
+        <img src="./water-cups/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Water cups</div>
+      <div class="description"></div>
+    </div>
+
+    <div class="project" data-project-name="faq">
+      <div class="poster">
+        <img src="./faq/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">FAQ Accordeon</div>
+      <div class="description">Accordeon blocks implementation</div>
+    </div>
+
+    <div class="project" data-project-name="image-slideshow">
+      <div class="poster">
+        <img src="./image-slideshow/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Images slideshow</div>
+      <div class="description"></div>
+    </div>
+
+    <div class="project" data-project-name="array-methods-2">
+      <div class="poster">
+        <img src="./array-methods-2/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">Array methods 2</div>
+      <div class="description"></div>
+    </div>
+
+    <div class="project" data-project-name="inn-detector">
+      <div class="poster">
+        <img src="./inn-detector/demo.png" alt="Project poster" />
+      </div>
+      <div class="title">INN Detector</div>
+      <div class="description"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
 </html>

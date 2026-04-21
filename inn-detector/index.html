@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INN Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <input id="inn-input" type="text" placeholder="Enter INN">
+        <button id="detect" class="hidden">Detect</button>
+    </div>
+    <div class="card">
+        <div class="color-block"></div>
+        <div class="info-block">
+            <img id="avatar" src="./images/error.png" alt="">
+            <div id="info-block" class="age-block hidden"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

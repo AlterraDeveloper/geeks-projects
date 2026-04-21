@@ -133,3 +133,7 @@
 ### 32. Приложение "Методы массивов 2"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/array-methods-2)
+
+### 33. Приложение "Детектор по ИНН"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/inn-detector)
