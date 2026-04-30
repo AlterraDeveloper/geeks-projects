@@ -4,11 +4,11 @@ questions.forEach(function (question) {
     const btn = question.querySelector(".question-btn");
 
     btn.addEventListener("click", function () {
-        const activeQuestion = document.querySelector(".question.show-text");
+        const activeQuestion = document.querySelector(".question.active");
 
         if (activeQuestion && activeQuestion !== question) {
-            activeQuestion.classList.remove("show-text");
+            activeQuestion.classList.remove("active");
         }
-        question.classList.toggle("show-text");
+        question.classList.toggle("active");
     });
 });
