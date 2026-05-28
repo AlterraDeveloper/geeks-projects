@@ -81,3 +81,11 @@ h1 {
   background-color: #09a974;
   color: white;
 }
+
+.project .copy-btn{
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
