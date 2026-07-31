@@ -137,3 +137,7 @@
 ### 33. Приложение "Детектор по ИНН"
 
 [Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/inn-detector)
+
+### 34. Приложение "Повороты"
+
+[Посмотреть демо](https://alterradeveloper.github.io/geeks-projects/rotator)
